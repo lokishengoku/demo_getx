@@ -1,0 +1,16 @@
+{
+  "buttons": {
+    "login": "Đăng nhập",
+    "sign_in": "Đăng nhập",
+    "logout": "Đăng xuất",
+    "back": "Trở lại",
+    "show_snackbar": "Hiển thị snackbar",
+    "show_dialog": "Hiển thị dialog",
+    "sign_in_fb": "Đăng nhập bằng Facebook",
+    "sign_in_google": "Đăng nhập bằng Google",
+    "sign_in_apple": "Đăng nhập bằng Apple",
+    "change_language_vi": "Tiếng Việt",
+    "change_language_en": "Tiếng Anh",
+    "show_bottom_sheet": "Hiển thị bottom sheet"
+  }
+}

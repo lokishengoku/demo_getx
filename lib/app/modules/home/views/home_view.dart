@@ -1,4 +1,4 @@
-import 'package:demo_getx/app/modules/login/views/login_view.dart';
+import 'package:demo_getx/generated/locales.g.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -30,7 +30,7 @@ class HomeView extends GetView<HomeController> {
                 var result = await Get.toNamed("/login");
                 print(result);
               },
-              child: Text("Go to login"),
+              child: Text(LocaleKeys.buttons_login.tr),
             ),
             ElevatedButton(
               onPressed: () {
@@ -46,7 +46,7 @@ class HomeView extends GetView<HomeController> {
                   duration: Duration(seconds: 3),
                 );
               },
-              child: Text('Show snackbar'),
+              child: Text(LocaleKeys.buttons_show_snackbar.tr),
             ),
             ElevatedButton(
               onPressed: () {
@@ -58,7 +58,7 @@ class HomeView extends GetView<HomeController> {
                   middleText: 'dialog made in 3 lines of code',
                 );
               },
-              child: Text('Show dialog'),
+              child: Text(LocaleKeys.buttons_show_dialog.tr),
             ),
             ElevatedButton(
               onPressed: () {
@@ -77,7 +77,21 @@ class HomeView extends GetView<HomeController> {
                   backgroundColor: Colors.white,
                 );
               },
-              child: Text('Show bottomsheet'),
+              child: Text(LocaleKeys.buttons_show_bottom_sheet.tr),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                var locale = Locale('vi_VN');
+                Get.updateLocale(locale);
+              },
+              child: Text(LocaleKeys.buttons_change_language_vi.tr),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                var locale = Locale('en_US');
+                Get.updateLocale(locale);
+              },
+              child: Text(LocaleKeys.buttons_change_language_en.tr),
             ),
           ],
         ),
