@@ -10,6 +10,11 @@ void main() {
       title: "Application",
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
+      routingCallback: (routing) {
+        if (routing?.current == '/login') {
+          print('trigger an action');
+        }
+      },
     ),
   );
 }
