@@ -34,6 +34,12 @@ class HomeView extends GetView<HomeController> {
             ),
             ElevatedButton(
               onPressed: () {
+                Get.toNamed("/users");
+              },
+              child: Text(LocaleKeys.buttons_users_list.tr),
+            ),
+            ElevatedButton(
+              onPressed: () {
                 Get.snackbar(
                   "Snackbar Title",
                   "This is a snackbar",

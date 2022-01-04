@@ -1,0 +1,122 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Ezra",
+        "last": "Thomas"
+      },
+      "location": {
+        "street": {
+          "number": 5607,
+          "name": "Hanover Street"
+        },
+        "city": "Timaru",
+        "state": "Wellington",
+        "country": "New Zealand",
+        "postcode": 19881,
+        "coordinates": {
+          "latitude": "63.0703",
+          "longitude": "-95.9790"
+        },
+        "timezone": {
+          "offset": "-3:00",
+          "description": "Brazil, Buenos Aires, Georgetown"
+        }
+      },
+      "email": "ezra.thomas@example.com",
+      "login": {
+        "uuid": "5b585de1-8148-4493-bb48-e34d3cf30e00",
+        "username": "crazyleopard939",
+        "password": "quentin",
+        "salt": "FhsFqJnC",
+        "md5": "ac153b20a7a14df426e626b568991aa9",
+        "sha1": "fd4c23c2227d4b89c6611c616c1df1d5ab4679fd",
+        "sha256": "65b2343255aaadea4fb206a8dcb1d5558d7ff2a000e4ea94388223cb31500126"
+      },
+      "dob": {
+        "date": "1955-12-20T22:56:23.189Z",
+        "age": 67
+      },
+      "registered": {
+        "date": "2007-01-04T08:01:57.332Z",
+        "age": 15
+      },
+      "phone": "(289)-209-0060",
+      "cell": "(238)-299-5778",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/85.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/85.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/85.jpg"
+      },
+      "nat": "NZ"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Paul",
+        "last": "Kallestad"
+      },
+      "location": {
+        "street": {
+          "number": 6509,
+          "name": "Bestumåsen"
+        },
+        "city": "Kjørnes",
+        "state": "Sogn og Fjordane",
+        "country": "Norway",
+        "postcode": "4553",
+        "coordinates": {
+          "latitude": "9.1566",
+          "longitude": "-155.4172"
+        },
+        "timezone": {
+          "offset": "-4:00",
+          "description": "Atlantic Time (Canada), Caracas, La Paz"
+        }
+      },
+      "email": "paul.kallestad@example.com",
+      "login": {
+        "uuid": "2173ae35-9229-4be2-9b35-0c64b6d9bcc0",
+        "username": "happykoala234",
+        "password": "shadows",
+        "salt": "TCppYa69",
+        "md5": "a6067dde12ec0163366a25ca0380cf4c",
+        "sha1": "ceb707b3d58f38272c08f3d6bf2a9d2db2df75b5",
+        "sha256": "fd1a21390542f3bdd3a83477ad435ff1954e90cff873fcaa8872dc557cc48da3"
+      },
+      "dob": {
+        "date": "1952-01-05T03:52:42.539Z",
+        "age": 70
+      },
+      "registered": {
+        "date": "2010-06-27T00:41:37.626Z",
+        "age": 12
+      },
+      "phone": "78034525",
+      "cell": "49938374",
+      "id": {
+        "name": "FN",
+        "value": "05015212103"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/99.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/99.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/99.jpg"
+      },
+      "nat": "NO"
+    }
+  ],
+  "info": {
+    "seed": "6393847e4f70115a",
+    "results": 10,
+    "page": 1,
+    "version": "1.3"
+  }
+}
