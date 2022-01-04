@@ -23,6 +23,7 @@ class LocaleKeys {
   static const buttons_change_language_vi = 'buttons_change_language_vi';
   static const buttons_change_language_en = 'buttons_change_language_en';
   static const buttons_show_bottom_sheet = 'buttons_show_bottom_sheet';
+  static const buttons_users_list = 'buttons_users_list';
 }
 
 class Locales {
@@ -39,6 +40,7 @@ class Locales {
     'buttons_change_language_vi': 'Vietnamese',
     'buttons_change_language_en': 'English',
     'buttons_show_bottom_sheet': 'Show bottom sheet',
+    'buttons_users_list': 'List of users',
   };
   static const vi_VN = {
     'buttons_login': 'Đăng nhập',
@@ -53,5 +55,6 @@ class Locales {
     'buttons_change_language_vi': 'Tiếng Việt',
     'buttons_change_language_en': 'Tiếng Anh',
     'buttons_show_bottom_sheet': 'Hiển thị bottom sheet',
+    'buttons_users_list': 'Danh sách ngưỜi dùng',
   };
 }
